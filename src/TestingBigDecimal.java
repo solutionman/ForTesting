@@ -14,5 +14,15 @@ public class TestingBigDecimal {
 
         System.out.println(b);
         System.out.println(c);
+
+        StringBuilder sb = new StringBuilder();
+
+        sb.append(b);                         // append  - adds strings to our string
+        System.out.println(sb);
+        sb.append(',');
+        System.out.println(sb);
+
     }
 }
+
+
